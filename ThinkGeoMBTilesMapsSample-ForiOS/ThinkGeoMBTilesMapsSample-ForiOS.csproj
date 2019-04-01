@@ -87,7 +87,7 @@
     <Reference Include="System.Data" />
     <Reference Include="System.Xml" />
     <Reference Include="System.Core" />
-    <Reference Include="ThinkGeo.Cloud.Client, Version=10.4.0.0, Culture=neutral, PublicKeyToken=0828af5241fb4207, processorArchitecture=MSIL">
+    <Reference Include="ThinkGeo.Cloud.Client, Version=10.0.0.0, Culture=neutral, PublicKeyToken=0828af5241fb4207, processorArchitecture=MSIL">
       <HintPath>..\packages\ThinkGeo.Cloud.Client.10.5.0\lib\xamarinios10\ThinkGeo.Cloud.Client.dll</HintPath>
     </Reference>
     <Reference Include="ThinkGeo.MapSuite, Version=10.0.0.0, Culture=neutral, PublicKeyToken=0828af5241fb4207, processorArchitecture=MSIL">
@@ -172,10 +172,10 @@
     <BundleResource Include="com.companyname.ThinkGeoMBTilesMapsSample_ForiOS.mapsuitelicense" />
     <None Include="Info.plist" />
     <None Include="Entitlements.plist" />
-    <None Include="packages.config" />
     <BundleResource Include="Resources\vectormap-icons.ttf">
       <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
     </BundleResource>
+    <None Include="packages.config" />
   </ItemGroup>
   <ItemGroup>
     <Compile Include="Main.cs" />
