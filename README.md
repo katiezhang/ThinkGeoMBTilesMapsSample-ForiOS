@@ -36,6 +36,25 @@ this.mapView.Overlays.Add(layerOverlay);
 this.mapView.CurrentExtent = new RectangleShape(-10780508.5162109, 3916643.16078401, -10775922.2945393, 3914213.89649231);
 this.mapView.Refresh();
 ```
+
+**[Warning]**
+
+If you would like to draw the *.MbTiles with ThinkGeo pre-built StyleJson file, which is created based on a customized icon set made for map designer, the following steps are required, according to the "[Xamarin iOS Development Guide](https://blog.xamarin.com/custom-fonts-in-ios/)".
+
+1. Download "vectorMap-icons" icons font family from [ThinkGeo CDN](https://cdn.thinkgeo.com/vectormap-icons/1.0.0/vectormap-icons.ttf)
+2. Add the download "vectorMap-icons" icons font file to your project. Once you've added the font, you should then right click it and select the ‘Properties’ menu option to do following changes:
+   * Change ‘Build Action’ to ‘BundleResource’.
+   * Change ‘Copy to output directory’ to ‘Always copy’.
+
+3. To tell iOS you are using custom fonts, you should open the Info.plist file and add following parts to "<dict></dict>".
+	
+```
+  <array>
+	<string>vectormap-icons.ttf</string>
+  </array>
+```
+
+
 ### Getting Help
 
 [Map Suite Mobile for Android Wiki Resources](https://wiki.thinkgeo.com/wiki/map_suite_mobile_for_ios)
