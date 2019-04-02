@@ -76,3 +76,4 @@ Map Suite is a set of powerful development components and services for the .Net 
 
 ### About ThinkGeo
 ThinkGeo is a GIS (Geographic Information Systems) company founded in 2004 and located in Frisco, TX. Our clients are in more than 40 industries including agriculture, energy, transportation, government, engineering, software development, and defense.
+
